@@ -1,0 +1,21 @@
+Metadata-Version: 2.4
+Name: waheed-portfolio
+Version: 1.0.0
+Summary: Portfolio website with admin CMS, grounded Gemini chatbot and contact email notifications
+Requires-Python: >=3.11
+Requires-Dist: fastapi<1.0,>=0.115
+Requires-Dist: uvicorn[standard]<1.0,>=0.30
+Requires-Dist: sqlalchemy<2.2,>=2.0
+Requires-Dist: alembic<2.0,>=1.13
+Requires-Dist: pydantic<3.0,>=2.7
+Requires-Dist: pydantic-settings<3.0,>=2.3
+Requires-Dist: email-validator<3.0,>=2.1
+Requires-Dist: python-multipart>=0.0.9
+Requires-Dist: bcrypt<6.0,>=4.1
+Requires-Dist: pyjwt<3.0,>=2.8
+Requires-Dist: httpx<1.0,>=0.27
+Requires-Dist: google-genai<3.0,>=1.0
+Requires-Dist: psycopg2-binary<3.0,>=2.9
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
+Requires-Dist: ruff>=0.5; extra == "dev"

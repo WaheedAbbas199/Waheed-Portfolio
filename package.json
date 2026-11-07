@@ -1,0 +1,7 @@
+{
+  "name": "waheed-portfolio-frontend-tests",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --test --test-force-exit tests/frontend/*.test.mjs" },
+  "devDependencies": { "jsdom": "^25.0.0" }
+}
